@@ -13,7 +13,9 @@
     box-sizing: border-box;
 }
 
-
+.content{
+    background-color: #12100E;;
+}
 
 html{
     scroll-behavior: smooth;
@@ -24,4 +26,8 @@ a{
 }
 ul{
     list-style: none;
+}
+
+input[type=text], input[type=email], input[type=number]{
+    color: #ffffff
 }

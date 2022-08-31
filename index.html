@@ -4,86 +4,560 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NTK-Website</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <title>NGK-Website</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- font-google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Prompt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Prompt&display=swap" rel="stylesheet">
+        
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <!-- my-css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/grid-system.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    
 </head>
     
 <body>
    <div class="NGK-website">
+    <!-- header -->
         <div class="header">
             <div class="header-nav-bar">
-                <div class="header-nav-bar-wrap">
-                    <div class="header-search">
-                        <div class="header-search-input">
-                            <input type="text"  class="" placeholder="search">
-                            <img class="" src="./image/Vectoricon-search.png" alt="">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="header-nav-bar-wrap">
+                                <div class="header-search">
+                                    <div class="header-search-input h">
+                                        <input type="text"  class="hide-on-mobile" placeholder="search" >
+                                        <img class="" src="./image/Vectoricon-search.png" alt="">
+                                        <img class="hide-on-pc hide-on-tablet" src="./image/Property 1=Menumobile.png" alt="">
+                                    </div>
+                                    <div class="header-search-line hide-on-mobile"></div>
+                                </div>
+                                <ul class="header-navbar-list hide-on-mobile">
+                                    <li><a href="#">Help</a>
+                                        <div class="header-navbar-list-line"></div>
+                                    </li>
+                                    <li><a href="#">Join us</a>
+                                        <div class="header-navbar-list-line"></div>
+                                    </li>
+                                    <li><a href="#">Q&A</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="header-search-line"></div>
                     </div>
-                    <ul class="header-navbar-list">
-                        <li><a href="#">Help</a>
-                            <div class="header-navbar-list-line"></div>
-                        </li>
-                        <li><a href="#">Join us</a>
-                            <div class="header-navbar-list-line"></div>
-                        </li>
-                        <li><a href="#">Q&A</a></li>
-                    </ul>
-                </div>
-               
+                </div> 
             </div>
-            
+            <div class="header-main">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="header-main-wrap">
+                                <ul class="header-main-list hide-on-mobile">
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">events</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="./image/Vectorlogo-ngk.png" alt="" class="hide-on-mobile">
+                <img src="./image/Vectorlogo-mb.png" alt="" class="hide-on-pc hide-on-tablet">
+            </div>
         </div>
+     <!-- content -->
         <div class="content">
+            <!-- banner -->
             <div class="banner">
-                <div class="logo">
-                    <img src="./image/Vectorlogo-ngk.png" alt="">
-                </div>
-                <div class="banner-navbar">
-                    <ul class="banner-navbar-list">
-                        <li><a href="">About us</a></li>
-                        <li><a href="">events</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="banner-inner">
-                    <div class="banner-inner-title">
-                        <span>Sunday Music Theatre:</span>
-                        <br>
-                        <span>Appreciation</span>
-                    </div>
-                    <div class="banner-inner-text">
-                        <p>The 11-day party series ends with a night of soft live music on the first Sunday of 2021. 
-                            Before entering a 2021 filled with hope and faith, let's look back at the warm moments of the night. music, buddy.
-                        </p>
-                    </div>
-                    <div class="banner-inner-a">
-                       <div class="more-event"> <a href="#">More events</a></div>
-                       <div class="detail"> <a href="#">Detail</a></div>
-                    </div>
-                </div>
                 <div class="banner-background-wrap">
                     <div class="banner-backgroun-image"></div>
                 </div>
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="banner-inner">
+                                <div class="banner-inner-title">
+                                    <span>Sunday Music Theatre:</span>
+                                    <br>
+                                    <span>Appreciation</span>
+                                </div>
+                                <div class="banner-inner-text hide-on-mobile">
+                                    <p>The 11-day party series ends with a night of soft live music on the first Sunday of 2021. 
+                                        Before entering a 2021 filled with hope and faith, let's look back at the warm moments of the night. music, buddy.
+                                    </p>
+                                </div>
+                                <div class="banner-inner-text-mb hide-on-pc hide-on-tablet">
+                                    <p>Appreciation - is the main theme of the New Year's concert at the theater to honor the value of music.</p>
+                                </div>
+                                <div class="banner-inner-a">
+                                   <div class="more-event"> <a href="#">More events</a></div>
+                                   <div class="detail"> <a href="#">Detail</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
               
             </div>
+            <!-- abount -->
             <div class="content-about">
                 <div class="content-about-wrap">
-                    <div class="img-about-1">
-                        <img src="./image/Image1-aboutus.png" alt="">
+                    <div class="container-img-about-1">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="img-about-1 col l-6 m-12 c-9">
+                                    <img src="./image/Image1-aboutus.png" alt="">
+                                </div>
+                                <div class="img-about-2 col l-6 m-12 c-6">
+                                    <img src="./image/Image2-aboutus.png" alt="">
+                               </div>
+                            </div>
+                           </div>
                     </div>
-                   <div class="img-about-2">
-                        <img src="./image/Image2-aboutus.png" alt="">
-                   </div>
+                  
+                    <div class="container-img-about-2">
+                        <div class="grid">
+                            <div class="row">
+                                
+                            </div>
+                           </div>
+                    </div>
+                  
+                    <div class="container-content-abount-inner">
+                        <div class="grid wide">
+                            <div class="row">
+                                <div class="content-about-inner col l-12 m-12 c-12">
+                                    <div class="content-about-inner-title">
+                                        <h2>We serve <span> fun</span> </h2>
+                                        <h2><span>& enjoyable</span></h2>
+                                        <div>
+                                            <h2>experience</h2>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                    <div class="content-about-inner-text">
+                                        <div class="content-about-inner-text-wrap">
+                                            <div class="content-about-inner-text-1">
+                                                <p>Founded in 2018, the alchemist is the brand that owns sub-brands of beverages and cocktails.
+                                                    We bring a luxurious space, European style. For diners, our core value is to provide a first-class destination for those who desire a relaxing space. 
+                                                </p>
+                                            </div>
+                                            <div class="content-about-inner-text-2">
+                                                <p>
+                                                    For our companions, we bring an open, professional working environment, 
+                                                    always cherish the values you create for us, even when not together.
+                                                </p>
+                                                <div class="content-about-inner-a__link">
+                                                    <a href=""><p>about us</p></a>
+                                                    <img src="./image/Groupabout-us.png" alt="">
+                                                </div>
+                                            </div>
+                                           
+                                        </div>                        
+                                    </div>
+                               </div>
+                            </div>
+                          </div>
+                    </div>
+                 
                 </div>
             </div>
+            <!-- cevents -->
+            <div class="content-events">
+                <div class="content-events-wrap">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="content-events-title col l-3 l-o-2 c-12">
+                                <h2>Keep up with</h2>
+                                <h2>Out <span>events</span></h2>
+                            </div>
+                          
+                        </div>
+                    
+                        <div class="row content-events-slides">
+                            <div class="content-events-slides-item item-1 col l-4 m-6 c-12">
+                                    <div class="content-events-slides-item-image">
+                                        <img src="./image/Imageevents-1.png" alt="">
+                                    </div>
+                                    <div class="content-events-slides-item-inner">
+                                        <div class="content-events-slides-item-inner-tag">
+                                           <span> #TheAlchemist</span>
+                                        </div>
+                                        <div class="content-events-slides-item-innner-title">
+                                            <h4>The Alchemist presents:</h4>
+                                            <h4> The Truth Untold No.3.</h4>
+                                        </div>
+                                        <div class="content-events-slides-item-inner-text">
+                                            <p>It has been quite some time since the last time we had a chat with the Winter Soldier,
+                                                 I'm sure that we all have been missing him. Even so, today’s story carries a totally different vibe</p>
+                                        </div>
+                                        <div class="content-events-slides-item-inner__a-link">
+                                            <a href="">Detail</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-events-slides-item-icon">
+                                        <img src="./image/Groupicon-events.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="content-events-slides-item item-2 col l-4 m-6 c-12">
+                                    <div class="content-events-slides-item-image">
+                                        <img src="./image/Imageevents-2.png" alt="">
+                                    </div>
+                                    <div class="content-events-slides-item-inner">
+                                        <div class="content-events-slides-item-inner-tag">
+                                            <span>#TheBlackSheep</span>
+                                        </div>
+                                        <div class="content-events-slides-item-innner-title">
+                                            <h4>The artistic inspiration of “Mini Theater Concept” at the theater</h4>
+                                        </div>
+                                        <div class="content-events-slides-item-inner-text">
+                                            <p>To become a unique Cocktail theater, we always try to innovate,
+                                                 develop, turn the theater into a place with a variety of art forms, because perhaps without innovation, in the future there will be one.</p>
+                                        </div>
+                                        <div class="content-events-slides-item-inner__a-link">
+                                            <a href="#">Detail</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-events-slides-item-icon">
+                                        <img src="./image/Groupicon-events.png" alt="">
+                                    </div>
+                            </div>
+                            <div class="content-events-slides-item item-3 col l-4 m-6 c-12">
+                                    <div class="content-events-slides-item-image">
+                                        <img src="./image/Imageevents-3.png" alt="">
+                                    </div>
+                                    <div class="content-events-slides-item-inner">
+                                        <div class="content-events-slides-item-inner-tag">
+                                            <span>#TheBlackSheep</span>
+                                        </div>
+                                        <div class="content-events-slides-item-innner-title">
+                                            <h4>Gos-Sheep 10th Edition: Shift The Sheep | Out Now!</h4>
+                                        </div>
+                                        <div class="content-events-slides-item-inner-text">
+                                            <p>Journey to the essence, uncover the cool facts about Cocktail
+                                                 Bar and see memorable moments with Cheering The Moments.
+                                                </p>
+                                        </div>
+                                        <div class="content-events-slides-item-inner__a-link">
+                                            <a href="#">Detail</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content-events-slides-item-icon">
+                                        <img src="./image/Groupicon-events.png" alt="">
+                                    </div>
+                            </div>                              
+                        </div>
+                         
+                    </div>
+                    <button class="content-events-slides-icon icon-left">
+                        <img src="./image/Navigatorleft.png" alt="">
+                </button>
+                <button class="content-events-slides-icon icon-right">
+                        <img src="./image/Navigatorright.png" alt="">
+                    </button>
+                  
+                </div>
+            </div>
+            <!-- awesome -->
+            <div class="content-awesome">
+                <div class="content-awesome-wrap">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="content-awesome-title col l-6 l-o-2 m-12 c-12">
+                                <h2>Our awesome</h2>
+                                <div><h2><span>people</span></h2>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <div class="row">
+                            <div class="awesome-thumbnail col l-12 m-12 c-12">
+                                <img class="hide-on-mobile" src="./image/Imageawesome-img.png" alt="">
+                                <img class="hide-on-pc" src="./image/Imagethumbnail-awesome-mb.png" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="awesome-sliders col l-12 m-12 c-12">
+                                <img src="./image/Imageawesome-img-1.png" alt="">
+                                <img src="./image/Imageawesome-img-2.png" alt="">
+                                <img src="./image/Imageawesome-img-3.png" alt="">
+                                <img src="./image/Imageawesome-img-4.png" alt="">
+                                <img src="./image/Imageawesome-img-5.png" alt="">
+                                <img src="./image/Imageawesome-img-6.png" alt="">
+                                <img src="./image/Imageawesome-img-7.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- special -->
+            <div class="content-special">
+                <div class="content-special-wrap">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="content-special-title col l-3 l-o-2 m-12 c-12">
+                                <h2>Special</h2>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="content-special-sliders">
+                            <div class="row">
+                                 <div class="content-special-sliders-item item-1 col l-3 m-6 c-9 ">
+                                    <div class="content-speical-sliders-item-box-img">
+                                        <div class="content-speical-sliders-item-img">
+                                            <img src="./image/Imagespecial-img-1.png" alt="">
+                                        </div>
+                                        <div class="content-special-sliders-item-tag">
+                                            <span>#SpeciaDeal</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-speical-sliders-item-inner">
+                                        <div class="content-special-sliders-item-inner-title">
+                                            <h2>Ưu đãi đậm sâu nhân dịp tết nguyên đán 2021 dành riêng cho khách hàng thân thiết</h2>
+                                        </div>
+                                        <div class="content-special-sliders-item-inner-text">
+                                            <p>Nếu bạn đang cần “thoát ế” mà chưa biết đi đâu để kiếm gấu, hay chỉ đơn giản là cần tìm một nơi để chill mỗi tối,
+                                                 hãy cùng Halotravel tham khảo đêm Single Night tại The Black Sheep Hà Nội ngay dưới đây nhé! </p>
+                                        </div>
+                                        <div class="content-special-slides-item-inner__a-link">
+                                            <a href="">about us</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                   
+                                 </div>
+                                 <div class="content-special-sliders-item item-2 col l-3 m-6 c-9">
+                                    <div class="content-speical-sliders-item-box-img">
+                                        <div class="content-speical-sliders-item-img">
+                                            <img src="./image/Imagespecial-img-2.png" alt="">
+                                        </div>
+                                        <div class="content-special-sliders-item-tag">
+                                            <span>#gos-sheep</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-speical-sliders-item-inner">
+                                        <div class="content-special-sliders-item-inner-title">
+                                            <h2>Gos-Sheep magazine 08: 1st anniversary</h2>
+                                        </div>
+                                        <div class="content-special-sliders-item-inner-text">
+                                            <p>Nếu bạn đang cần “thoát ế” mà chưa biết đi đâu để kiếm gấu, hay chỉ đơn giản là cần tìm một nơi để chill mỗi tối,
+                                                 hãy cùng Halotravel tham khảo đêm Single Night tại The Black Sheep Hà Nội ngay dưới đây nhé! </p>
+                                        </div>
+                                        <div class="content-special-slides-item-inner__a-link">
+                                            <a href="#">about us</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                   
+                                 </div>
+                                 <div class="content-special-sliders-item item-3 col l-3 m-6 c-9">
+                                    <div class="content-speical-sliders-item-box-img">
+                                        <div class="content-speical-sliders-item-img">
+                                            <img src="./image/Imagespecial-img-3.png" alt="">
+                                        </div>
+                                        <div class="content-special-sliders-item-tag">
+                                            <span>#SpeciaDeal</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-speical-sliders-item-inner">
+                                        <div class="content-special-sliders-item-inner-title">
+                                            <h2>Ưu đãi đặc biệt dành riêng cho khách hàng nhanh tay đặt bàn giờ vàng</h2>
+                                        </div>
+                                        <div class="content-special-sliders-item-inner-text">
+                                            <p>Nếu bạn đang cần “thoát ế” mà chưa biết đi đâu để kiếm gấu, hay chỉ đơn giản là cần tìm một nơi để chill mỗi tối,
+                                                 hãy cùng Halotravel tham khảo đêm Single Night tại The Black Sheep Hà Nội ngay dưới đây nhé! </p>
+                                        </div>
+                                        <div class="content-special-slides-item-inner__a-link">
+                                            <a href="#">about us</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                   
+                                 </div>
+                                 <div class="content-special-sliders-item item-4 col l-3 m-6 c-9">
+                                    <div class="content-speical-sliders-item-box-img">
+                                        <div class="content-speical-sliders-item-img">
+                                            <img src="./image/Imagespeical-img-4.png" alt="">
+                                        </div>
+                                        <div class="content-special-sliders-item-tag">
+                                            <span>#alchemist comic</span>
+                                        </div>
+                                    </div>
+                                    <div class="content-speical-sliders-item-inner">
+                                        <div class="content-special-sliders-item-inner-title">
+                                            <h2>Ưu đãi đậm sâu nhân dịp tết nguyên đán 2021 dành riêng cho khách hàng thân thiết</h2>
+                                        </div>
+                                        <div class="content-special-sliders-item-inner-text">
+                                            <p>Nếu bạn đang cần “thoát ế” mà chưa biết đi đâu để kiếm gấu, hay chỉ đơn giản là cần tìm một nơi để chill mỗi tối
+                                                , hãy cùng Halotravel tham khảo đêm Single Night tại The Black Sheep Hà Nội ngay dưới đây nhé! </p>
+                                        </div>
+                                        <div class="content-special-slides-item-inner__a-link">
+                                            <a href="">about us</a>
+                                            <img src="./image/Groupabout-us.png" alt="">
+                                        </div>
+                                    </div>
+                                   
+                                 </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <button class="content-events-slides-icon icon-left-special hide-on-mobile">
+                        <img src="./image/Navigatorleft.png" alt="">
+                </button>
+                <button class="content-events-slides-icon icon-right-special hide-on-mobile">
+                        <img src="./image/Navigatorright.png" alt="">
+                    </button>
+                </div>
+                
+              
+            </div>
+            <!-- anything -->
+            <div class="content-anything">
+                <div class="content-anything-wrap">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-8 l-o-2 m-12 c-12">
+                                <div class="content-anything-title">
+                                    <div>
+                                        <h2>Did you</h2>
+                                        <div class="line"></div>
+                                    </div>
+                                    <h2>Miss anything?</h2>
+                                </div>
+                                <div class="content-anything-inner">
+                                    <div class="content-anything-inner-title-question">
+                                        <p>What more do you want to know?</p>
+                                    </div>
+                                    <div class="content-anything-inner-search-input">
+                                        <input type="text" placeholder="Does the bar have vegetarian food?">
+                                        <a href="#">
+                                            <img src="./image/Vectoranything-serach-icon.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="row content-anything-inner-text hide-on-mobile">
+                                        <p class="col l-3"><a href="">What’s Nha Gia Kim Group?</a></p>
+                                        <p class="col l-3"><a href="">What services does Nha Gia Kim provide?</a></p>
+                                        <p class="col l-3"><a href="">What's special in Nha Gia Kim?</a></p>
+                                        <p class="col l-3"><a href="">Brands under Nha Gia Kim group?</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contact us -->
+            <div class="content-contact">
+                <div class="content-contact-wrap">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col l-6 l-o-3 m-12 c-12">
+                                <form action="#" class="row form-contact">
+                                    <h2 class="form-contact-title col l-12 m-12 c-12">Contact us</h2>
+                                    <div class="col l-6 m-6 c-12">
+                                        <input type="text" placeholder="your Name*" >
+                                    </div>
+                                    <div class="col l-6 m-6 c-12">
+                                        <input type="email" placeholder="Email address" >
+                                    </div>
+                                    <div class="col l-6 m-6 c-12">
+                                        <input type="number" placeholder="Phone number*" >
+                                    </div>
+                                    <div class="col l-6 m-6 c-12">
+                                        <input type="text" placeholder="Your message" c>
+                                    </div>
+                                    <button type="submit" class="form-contact-btn">
+                                        <p>Submit</p>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+     
         </div>
+    <!-- footer -->
+    <div class="footer">      
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3 c-12">
+                        <div class="footer-logo">
+                            <img class="hide-on-mobile" src="./image/Vectorlogo-footer-pc.png" alt="">
+                            <img class="hide-on-pc"src="./image/Vectorfooter-logo-mb.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col l-6 c-12">
+                        <div class="footer-adress">
+                            <h2 class="footer-adress-title hide-on-mobile">Nhà Giả Kim group</h2>
+                            <h2 class="footer-adress-title hide-on-pc">Contact</h2>
+                            <ul class="hide-on-mobile">
+                                <li>Address: 20 Tong duy tan str. Ba Dinh Dist. hanoi</li>
+                                <li>Hotline: 098 888 6321</li>
+                                <li>email: contact@nkg.com.vn</li>
+                            </ul>
+                            <div class="hide-on-pc">
+                                <ul>
+                                    <li>Address:</li>
+                                    <li>Hotline:</li>
+                                    <li>email:</li>
+                                </ul>
+                                <ul>
+                                    <li>20 Tong duy tan str. Ba Dinh Dist. hanoi</li>
+                                    <li>098 888 6321</li>
+                                    <li>contact@nkg.com.vn</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 c-12">
+                        <div class="footer-socials">
+                            <h2 class="footer-socials-title">Follow us</h2>
+                            <ul class="">
+                                <li><i class="fa-brands fa-facebook"></i></li>
+                                <li><i class="fa-brands fa-twitter"></i></li>
+                                <li><i class="fa-brands fa-instagram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col c-12 hide-on-pc">
+                        <div class="footer-nav-bar">
+                            <ul>
+                                <li> 
+                                    <a href="#">Help</a>
+                                    <div class="footer-nav-bar-line"></div>
+                                </li>
+                                <li><a href="#">join us</a>
+                                    <div class="footer-nav-bar-line"></div></li>
+                                <li><a href="#">Q&A</a>
+                                    <div class="footer-nav-bar-line"></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>             
+    </div>
    </div>
+   
+
+  </script>
 </body>
 </html>
