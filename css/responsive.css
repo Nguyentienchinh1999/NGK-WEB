@@ -8,6 +8,90 @@
     .hide-on-tablet{
         display:none;
     }
+    .banner-backgroun-image{
+        background-position: center center;
+    }
+
+    .content-about-inner{
+        top: 35%;
+    }
+
+    .content-about-inner-title{
+        width:100%;
+    }
+    .content-events-slides-item{
+        display: block;
+    }
+    .content-events-slides-item-inner__a-link{
+        position: unset;
+        margin-top: 12px;
+        margin-bottom: 30px;
+    }
+    .content-events-slides-item-image > img{
+        width: 100%;
+    }
+    .content-events-slides-icon.icon-right{
+        right: 10px;
+    }
+    .content-events-slides-icon.icon-left{
+        left:10px
+    }
+
+    .awesome-thumbnail > img{
+        width: 100%;
+    }
+    .content-special-sliders{
+        overflow: hidden;
+    }
+
+    .content-special-sliders .row {
+        flex-wrap: unset;
+    }
+
+    .content-events-slides-icon.icon-left-special{
+        left: 10px;
+    }
+
+    .content-events-slides-icon.icon-right-special {
+        right: 10px;
+    }
+
+    .footer-adress{
+        margin-top: 50px;
+    }
+    .footer-socials{
+        margin-top:50px
+    }
+    .footer-nav-bar{
+        margin-top: 45px
+    }
+
+    .footer-nav-bar > ul,   .footer-nav-bar > ul >li{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .footer-nav-bar > ul > li > a{
+        font-family: var(--font-text);
+        color: var(--text-color);
+        font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    }
+
+    .footer-nav-bar-line{
+        background: var(--text-color);
+        width: 1px;
+        height: 18px;
+        margin-left: 11px;
+        margin-right: 16px;
+    }
+    
 }
 @media(max-width: 739px){
     .hide-on-mobile{
@@ -215,12 +299,7 @@
         line-height: 18px;
     }
 
-    .content-events-slides-item-inner__a-link{
-        position: unset;
-        margin-top: 12px;
-        margin-bottom: 50px;
-    }
-
+  
     .line{
         width: 100px
     }
@@ -357,7 +436,6 @@ line-height:15px
 
     .footer-adress > ul > li{
         display: flex;
-    
        
     }
 
