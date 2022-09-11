@@ -36,3 +36,7 @@ ul{
 input[type=text], input[type=email], input[type=number]{
     color: #ffffff
 }
+
+button{
+    cursor: pointer;
+}

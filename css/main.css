@@ -482,6 +482,9 @@ text-transform: uppercase;
     animation: marquee 80s linear infinite;
 }
 
+.content-events-slides:hover{
+    animation-play-state: paused;
+}
 @keyframes marquee{
     0%{transform:translateX(0%)}100%{transform:translateX(-100%)}
 }
