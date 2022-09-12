@@ -100,8 +100,8 @@
                                     <p>Appreciation - is the main theme of the New Year's concert at the theater to honor the value of music.</p>
                                 </div>
                                 <div class="banner-inner-a">
-                                   <div class="more-event"> <a href="#">More events</a></div>
-                                   <div class="detail"> <a href="#">Detail</a></div>
+                                   <button class="more-event"> <a href="#">More events</a></button>
+                                   <button class="detail"> <a href="#">Detail</a></button>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                           
                         </div>
                     
-                        <div class="row content-events-slides">
+                        <div class="row  content-events-slides">
                             <div class="content-events-slides-item item-1 col l-4 m-6 c-12">
                                     <div class="content-events-slides-item-image">
                                         <img src="./image/Imageevents-1.png" alt="">
@@ -610,8 +610,12 @@
             </div>             
     </div>
    </div>
-   
-
-  </script>
+   <script>
+        const marqueeContent = document.querySelector(".content-events-slides");
+        document.documentElement.style.setProperty("5",marqueeContent.children.length);
+        for(let i = 0; i < 3; i++ ){
+            marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+        }
+   </script>
 </body>
 </html>
