@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Prompt&display=swap" rel="stylesheet">
-        
+    <script type="text/javascript" src="./css/magicscroll-trial/magicscroll/magicscroll.js"></script>
     <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
-
+    <script src="./css/splide-4.0.14/dist/js/splide.min.js"></script>
     <!-- my-css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="./css/grid-system.css">
@@ -33,7 +33,7 @@
                         <div class="col l-12 m-12 c-12">
                             <div class="header-nav-bar-wrap">
                                 <div class="header-search">
-                                    <div class="header-search-input h">
+                                    <div class="header-search-input">
                                         <input type="text"  class="hide-on-mobile" placeholder="search" >
                                         <img class="" src="./image/Vectoricon-search.png" alt="">
                                         <img class="hide-on-pc hide-on-tablet" src="./image/Property 1=Menumobile.png" alt="">
@@ -159,7 +159,7 @@
                                                     always cherish the values you create for us, even when not together.
                                                 </p>
                                                 <div class="content-about-inner-a__link">
-                                                    <a href=""><p>about us</p></a>
+                                                    <a href="">about us</a>
                                                     <img src="./image/Groupabout-us.png" alt="">
                                                 </div>
                                             </div>
@@ -189,7 +189,7 @@
                           
                         </div>
                     
-                        <div class="row  content-events-slides">
+                        <div class="row content-events-slides">
                             <div class="content-events-slides-item item-1 col l-4 m-6 c-12">
                                     <div class="content-events-slides-item-image">
                                         <img src="./image/Imageevents-1.png" alt="">
@@ -264,21 +264,20 @@
                                         <img src="./image/Groupicon-events.png" alt="">
                                     </div>
                             </div>   
-                            <div class="content-events-slides-item item-3 col l-4 m-6 c-12">
+                            <div class="content-events-slides-item item-2 col l-4 m-6 c-12">
                                 <div class="content-events-slides-item-image">
-                                    <img src="./image/Imageevents-3.png" alt="">
+                                    <img src="./image/Imageevents-2.png" alt="">
                                 </div>
                                 <div class="content-events-slides-item-inner">
                                     <div class="content-events-slides-item-inner-tag">
                                         <span>#TheBlackSheep</span>
                                     </div>
                                     <div class="content-events-slides-item-innner-title">
-                                        <h4>Gos-Sheep 10th Edition: Shift The Sheep | Out Now!</h4>
+                                        <h4>The artistic inspiration of “Mini Theater Concept” at the theater</h4>
                                     </div>
                                     <div class="content-events-slides-item-inner-text">
-                                        <p>Journey to the essence, uncover the cool facts about Cocktail
-                                             Bar and see memorable moments with Cheering The Moments.
-                                            </p>
+                                        <p>To become a unique Cocktail theater, we always try to innovate,
+                                             develop, turn the theater into a place with a variety of art forms, because perhaps without innovation, in the future there will be one.</p>
                                     </div>
                                     <div class="content-events-slides-item-inner__a-link">
                                         <a href="#">Detail</a>
@@ -288,32 +287,32 @@
                                 <div class="content-events-slides-item-icon">
                                     <img src="./image/Groupicon-events.png" alt="">
                                 </div>
-                            </div> 
-                            <div class="content-events-slides-item item-3 col l-4 m-6 c-12">
+                             </div>
+                            <div class="content-events-slides-item item-1 col l-4 m-6 c-12">
                             <div class="content-events-slides-item-image">
-                                <img src="./image/Imageevents-3.png" alt="">
+                                <img src="./image/Imageevents-1.png" alt="">
                             </div>
                             <div class="content-events-slides-item-inner">
                                 <div class="content-events-slides-item-inner-tag">
-                                    <span>#TheBlackSheep</span>
+                                   <span> #TheAlchemist</span>
                                 </div>
                                 <div class="content-events-slides-item-innner-title">
-                                    <h4>Gos-Sheep 10th Edition: Shift The Sheep | Out Now!</h4>
+                                    <h4>The Alchemist presents:</h4>
+                                    <h4> The Truth Untold No.3.</h4>
                                 </div>
                                 <div class="content-events-slides-item-inner-text">
-                                    <p>Journey to the essence, uncover the cool facts about Cocktail
-                                         Bar and see memorable moments with Cheering The Moments.
-                                        </p>
+                                    <p>It has been quite some time since the last time we had a chat with the Winter Soldier,
+                                         I'm sure that we all have been missing him. Even so, today’s story carries a totally different vibe</p>
                                 </div>
                                 <div class="content-events-slides-item-inner__a-link">
-                                    <a href="#">Detail</a>
+                                    <a href="">Detail</a>
                                     <img src="./image/Groupabout-us.png" alt="">
                                 </div>
                             </div>
                             <div class="content-events-slides-item-icon">
                                 <img src="./image/Groupicon-events.png" alt="">
                             </div>
-                            </div>                            
+                            </div>                          
                         </div>
                          
                     </div>
@@ -610,12 +609,16 @@
             </div>             
     </div>
    </div>
+   
    <script>
         const marqueeContent = document.querySelector(".content-events-slides");
         document.documentElement.style.setProperty("5",marqueeContent.children.length);
-        for(let i = 0; i < 3; i++ ){
+        for(let i = 0; i < 1; i++ ){
             marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
         }
+        
+       
+        
    </script>
 </body>
 </html>

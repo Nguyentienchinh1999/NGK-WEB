@@ -34,9 +34,11 @@ ul{
 }
 
 input[type=text], input[type=email], input[type=number]{
-    color: #ffffff
+    color: #ffffff;
+   
 }
 
 button{
     cursor: pointer;
+    border: none;
 }

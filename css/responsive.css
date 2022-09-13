@@ -404,6 +404,10 @@ line-height:15px
         padding: 11px 16px;
     }
 
+    .content-anything-inner-search-input > input{
+        height: 38px;
+    }
+
     .content-anything-inner-search-input > input::placeholder{
         font-size: 12px;
         line-height: 16px;
